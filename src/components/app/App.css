@@ -10,7 +10,12 @@ body {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  background-color: #000000;
   color: #FFFFFF;
   min-height: 100vh;
+  font-weight: 400;
+  font-family: 'OpenSans', sans-serif;
+}
+
+.page {
+  background-image: url('../../image//back-desktop.jpg');
 }
