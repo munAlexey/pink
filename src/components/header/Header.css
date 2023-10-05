@@ -1,0 +1,30 @@
+.header {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  padding: 27px 0 43px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header__block {
+  display: flex;
+  gap: 173px;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 79px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #FFF;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
