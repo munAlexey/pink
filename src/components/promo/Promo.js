@@ -8,20 +8,20 @@ function Promo(props) {
   return (
     <section className="promo container">
       <div className="promo__block">
-        <h2>Взгляните на жизнь иначе!</h2>
-        <button type="button">Скачать приложение</button>
-        <ul>
-          <li>
-            <img src={apple} alt="apple" />
+        <h2 className="promo__title">Взгляните на жизнь иначе!</h2>
+        <button className="promo__btn" type="button">Скачать приложение</button>
+        <ul className="promo__list">
+          <li className="promo__item">
+            <img src={apple} alt="apple" width={47} height={56} />
           </li>
-          <li>
-            <img src={android} alt="android" />
+          <li className="promo__item">
+            <img src={android} alt="android" width={43} height={47} />
           </li>
-          <li>
-            <img src={microsoft} alt="microsoft" />
+          <li className="promo__item">
+            <img src={microsoft} alt="microsoft" width={44} height={41} />
           </li>
         </ul>
-        <p>
+        <p className="promo__subtitle">
           Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8
         </p>
       </div>

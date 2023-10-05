@@ -8,7 +8,7 @@ function Header(props) {
     <header className="header">
       <div className="container">
         <div className="header__block">
-          <img src={logo} alt="pink" width={147} height={43}/>
+          <img src={logo} alt="pink" width={147} height={40}/>
           <ul className="header__list">
             <li className="header__item">
               <Link className="header__link" to="/"> Главная</Link></li>

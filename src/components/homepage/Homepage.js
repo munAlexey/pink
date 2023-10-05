@@ -4,12 +4,12 @@ import Promo from "../promo/Promo";
 
 function Homepage(props) {
   return (
-    <div>
+    <>
       <Header />
       <main>
         <Promo />
       </main>
-    </div>
+    </>
   );
 }
 
