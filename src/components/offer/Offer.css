@@ -1,0 +1,10 @@
+.offer__block {
+  background-color: #F2F2F2;
+}
+
+.offer__list {
+  list-style-type: none;
+  gap: 20px;
+  display: flex;
+  padding: 0;
+}
