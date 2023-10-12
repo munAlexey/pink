@@ -13,9 +13,9 @@ function Header(props) {
             <li className="header__item">
               <Link className="header__link" to="/"> Главная</Link></li>
             <li className="header__item">
-              <Link className="header__link" to="/catalog"> Фотографии</Link></li>
+              <Link className={`header__link ${props.classCatalog}`} to="/catalog"> Фотографии</Link></li>
             <li className="header__item">
-              <Link className="header__link" to="/form"> Конкурс</Link></li>
+              <Link className={`header__link ${props.classForm}`} to="/form"> Конкурс</Link></li>
             <li className="header__item">
               <a className="header__link" href="https://htmlacademy.ru/" target="_blank" rel="noreferrer"> HTML Academy</a></li>
           </ul>

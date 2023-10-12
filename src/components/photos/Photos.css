@@ -1,0 +1,8 @@
+.photos__list {
+  margin: 50px 0 58px 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  gap: 54px 20px;
+}

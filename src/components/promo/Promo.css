@@ -6,11 +6,15 @@
 .promo__block {
   max-width: 300px;
   width: 100%;
-  padding: 114px 0 0;
+  padding: 100px 0 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.promo__item {
+  z-index: 1;
 }
 
 .promo__title {
@@ -19,7 +23,7 @@
   font-style: normal;
   font-weight: 300;
   margin: 0;
-  line-height: 58px;
+  line-height: 68px;
 }
 
 .promo__btn {
@@ -30,10 +34,22 @@
   font-size: 20px;
   font-style: normal;
   border-radius: 29px;
-  padding: 20px 32px 20px 31px;
+  padding: 17px 32px 17px 31px;
   font-weight: 700;
   line-height: 16px;
-  margin: 51px 0 67px;
+  letter-spacing: 0.3px;
+  margin: 35px 0 67px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.promo__btn:hover {
+  background-color: #fff;
+  color: #D22856;
+}
+
+.promo__btn:active {
+  color: rgba(210, 40, 86, 0.1);
 }
 
 .promo__list {
@@ -52,11 +68,42 @@
   font-style: normal;
   font-weight: 300;
   line-height: 24px;
-  margin: 58px 0 110px;
+  margin: 49px 0 110px;
   text-align: center;
 }
 
 .promo__bg {
   position: absolute;
-  bottom: 0;
+  right: -125px;
+  bottom: -15px;
+  z-index: 0;
+}
+
+/* Catalog */
+
+.promo-catalog {
+  display: flex;
+  justify-content: center;
+}
+
+.promo-catalog__title {
+  margin: 60px 0 74px 0;
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 357px;
+}
+
+.promo-form__title {
+  max-width: 747px;
+  color: #FFF;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 59px 0 89px;
 }

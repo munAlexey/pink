@@ -1,10 +1,11 @@
 .header {
-  flex-shrink: 0;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
   padding: 27px 0 43px;
   background-color: rgba(0, 0, 0, 0.3);
-  width: 1200px;
+  max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -17,9 +18,10 @@
 .header__list {
   display: flex;
   list-style-type: none;
-  margin: 0;
+  margin: 16px 0 0 0;
   padding: 0;
   gap: 79px;
+  flex-wrap: wrap;
 }
 
 .header__link {
@@ -29,4 +31,22 @@
   font-style: normal;
   font-weight: 400;
   line-height: 18px;
+}
+
+.header__link:hover {
+  color: #D22856;
+}
+
+.header__link:active {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+}
+
+.header__choosen {
+  border-bottom: 2px solid #fff;
+  padding-bottom: 8px;
+}
+
+.header__choosen:hover {
+  border-bottom: 2px solid #D22856;
 }

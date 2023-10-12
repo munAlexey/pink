@@ -1,0 +1,74 @@
+.info__head-title {
+  color: #283645;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 59px auto 40px;
+  max-width: 462px;
+}
+
+.info__list {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  padding-bottom: 53px;
+}
+
+.info__list::after {
+  content: url('../../image/triangle.svg');
+  top: 110px;
+  position: absolute;
+  z-index: 2;
+}
+
+.info__block {
+  display: flex;
+  justify-content: space-between;
+  max-width: 863px;
+  width: 100%;
+  margin-left: 14px;
+}
+
+.info__adress {
+  position: absolute;
+}
+
+.info__title {
+  color: #283645;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+.info__text {
+  display: flex;
+  color: #D22856;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 20px 0 0;
+  text-decoration: none;
+  max-width: 241px;
+}
+
+.info__map {
+  width: 1200px;
+  margin: 0 auto 69px;
+  position: relative;
+}
+
+.info__map-info {
+  width: 1200px;
+  height: 502px;
+ }
+
+ [class*="copyrights-pane"] {
+	display: none !important;
+}

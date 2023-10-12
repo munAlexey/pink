@@ -1,10 +1,96 @@
 .offer__block {
-  background-color: #F2F2F2;
+  background: linear-gradient(-4.7deg, #F2F2F2 83%, rgba(2,0,36,1) 45%, #fff 3%);
+}
+
+.offer__header-title {
+  margin: 77px auto 51px;
+  max-width: 732px;
+  color: #283645;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
 }
 
 .offer__list {
   list-style-type: none;
   gap: 20px;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
   padding: 0;
+}
+
+.offer__phone-item {
+  margin-left: -4px;
+  margin-top: 6px;
+}
+
+.offer__text-item {
+  margin-top: -30px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.offer__title {
+  margin: 0;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.offer__subtitle {
+  max-width: 252px;
+  color: #283645;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+
+.offer__timer-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 94px;
+}
+
+.offer__title-timer {
+  margin: 0 0 25px;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.offer__subtitle-timer {
+  color: #283645;
+  text-align: left;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 0;
+}
+
+.offer__timer {
+  display: flex;
+  gap: 71px;
+  margin-top: 68px;
+  padding-bottom: 67px;
+}
+
+.offer__subtitle-link {
+  color: #D22856;
+  text-decoration-line: underline;
+  margin-top: 30px;
 }

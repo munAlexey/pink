@@ -1,0 +1,49 @@
+.footer__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 98px;
+}
+
+.footer__list {
+  display: flex;
+  list-style-type: none;
+  gap: 6px;
+  margin: 2px 0px 0 2px;
+  padding: 0 0 0px 0;
+}
+
+.footer__item {
+  width: 48px;
+  height: 48px;
+  border: 3px solid rgba(40, 54, 69, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.footer__item:hover {
+  border: 3px solid rgb(40, 54, 69);
+}
+
+.footer__item:active {
+  opacity: 0.1;
+}
+
+.footer__text {
+  color: #283645;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  position: relative;
+  margin: 17px 5px 0px 0px;
+  padding: 0 35px 0 0;
+}
+
+.footer__text::after {
+  content: url('../../image/html.svg');
+  position: absolute;
+  top: -6px;
+  right: -5px;
+}

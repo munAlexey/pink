@@ -1,0 +1,102 @@
+.price {
+  background: linear-gradient(-4.7deg, #F2F2F2 79.5%, rgba(2,0,36,1) 45%, #fff 3%);
+}
+
+.price__block {
+  padding: 1px 0 98px 0;
+}
+
+.price__list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 2px;
+  list-style-type: none;
+  margin: 173px 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.price__item {
+  background-color: #283645;
+  position: relative;
+  max-width: 233.5px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.price__tag {
+  margin: 0;
+  padding: 22px 0px 6px 2px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.price__item-1 {
+  border-radius: 3px 0px 0px 0px;
+}
+
+.price__item-3 {
+  border-radius: 0px 3px 0px 0px;
+}
+
+.price__hit {
+  position: absolute;
+  transform: rotate(-45deg);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #D22856;
+  text-align: center;
+  top: 19px;
+  left: -31px;
+  padding: 4px 45px;
+}
+
+.price__cost {
+  margin: 0;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding: 0 0 21px 3px;
+}
+
+.price__table {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.price__table-row {
+  display: grid;
+  grid-template-columns: repeat(4, 233.5px);
+  list-style-type: none;
+  gap: 2px;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.price__checkbox {
+  max-width: 233.5px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 59px;
+  align-items: center;
+  background-color: #fff;
+}
+
+
+.price__title {
+  color: #283645;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  background-color: #fff;
+  padding: 19px 0 0 22px;
+}

@@ -17,8 +17,25 @@ body {
 }
 
 .page {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background-image: url('../../image//back-desktop.jpg');
   background-size: 1200px 853px;
   background-repeat: no-repeat;
   background-position: top;
+}
+
+.page-catalog {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  background-image: url('../../image//back-catalog.jpg');
+  background-size: 1200px 394px;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+.main {
+  min-height: 100vh;
 }

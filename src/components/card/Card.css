@@ -1,0 +1,57 @@
+.photos__item {
+  max-width: 300px;
+}
+
+.photos__img {
+  max-width: 300px;
+  display: flex;
+}
+
+.photos__block {
+  background-color: #F2F2F2;
+  box-sizing: border-box;
+  padding: 28px 27px 15px;
+}
+
+.photos__name {
+  margin: 0;
+  color: #283645;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.photos__time {
+  color: #283645;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.photos__text {
+  color: #283645;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 4px 0 6px;
+}
+
+.photos__like-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.photos__like {
+  color: #D22856;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.photos__liked {
+  margin: -2px 3px 0 0;
+}
