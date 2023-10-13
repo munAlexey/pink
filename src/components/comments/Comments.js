@@ -8,10 +8,10 @@ function Comments(props) {
     <section className="comments container">
       <div className="comments__block">
         <button className="comments__btn comments__btn-left" type="button">
-          <img src={left} alt="arrow-left" width={22} height={41} />
+          <img className="`comments__arrow" src={left} alt="arrow-left" width={22} height={41} />
         </button>
         <button className="comments__btn comments__btn-right" type="button">
-          <img src={right} alt="arrow-right" width={22} height={41} />
+          <img className="`comments__arrow" src={right} alt="arrow-right" width={22} height={41} />
         </button>
         <img className="comments__quote" src={quotes} alt="quote" width={79} height={63} />
         <div className="comments__text-block">

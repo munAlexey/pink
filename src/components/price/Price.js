@@ -1,6 +1,6 @@
 import "./Price.css";
 import dis from "../../image/dis.svg";
-import check from "../../image/check.svg";
+import check from "../../image/check-green.svg";
 
 function Price(props) {
   return (

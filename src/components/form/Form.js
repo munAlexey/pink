@@ -1,7 +1,6 @@
 import "./Form.css";
 import tel from "../../image/phone.svg";
 import email from "../../image/mail.svg";
-import check from "../../image/check.svg";
 
 function Form(props) {
   return (

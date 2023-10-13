@@ -60,6 +60,10 @@
   width: 100%;
 }
 
+.form__input:hover {
+  border: 2px solid #283645;
+}
+
 .form__fieldset {
   display: flex;
   flex-direction: column;
@@ -151,6 +155,10 @@
   padding: 19px 77px 19px 20px;
   max-width: 272px;
   width: 100%;
+}
+
+.form__input-adress:hover {
+  border: 2px solid #283645;
 }
 
 .form__adress-tel {

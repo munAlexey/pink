@@ -64,6 +64,10 @@
   cursor: pointer;
 }
 
+.filters__input::-webkit-slider-thumb:active {
+  background-color: #D22856;
+}
+
 .filters__img-block {
   width: 300px;
   height: 400px;
@@ -93,6 +97,7 @@
   max-width: 183px;
   width: 100%;
   padding: 15px 0;
+  cursor: pointer;
   font-weight: 700;
 }
 
